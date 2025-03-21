@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: 'Times New Roman';
+            max-width:1000px; 
+            margin:100px auto;
+            border-collapse: collapse;
+
+        }
+        table {
+            width: 100%; 
+           
+        }
+        h1{
+            text-align: center;
+        }
+        td {
+            padding: 10px;
+        }
+        input, select {
+
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <h1><u>Assignment 3</u></h1>
+    <br>
+    <p>Q. Create below registration page using HTML 5 tags and CSS.</p>
+    <h2 style="text-align: center;"><b><u>Registration Form</u></b></h2>
+
+
+<table border ="2" style="width: 100%;">
+    <tr>
+        <td colspan="2">
+            <video controls autoplay src="sun.mp4" width="100%" height="200px"></video>
+
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td><b>Name:</b></td>
+                    <td><input type="text" placeholder="Enter Name" required></td>
+                </tr>
+                <tr>
+                    <td><b>BirthDate:</b></td>
+                    <td><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td><input type="email" placeholder="abc@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td><b>Password:</b></td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td><b>Address:</b></td>
+                    <td>
+                        <select>
+
+                            <option>Select State</option>State
+                            <option>Rajasthan</option>
+                            <option>Andhra Pradesh</option>
+                            <option>Madhya Pradesh</option>
+                            <option>Maharashtra</option>
+                            <option>Goa</option>
+
+                        </select>
+                        <select>
+                            <option> Select City</option>City
+                            <option>Pune</option>
+                            <option>Mumbai</option>
+                            <option>Satara</option>
+                        </select>
+                        <select>
+                            <option>Select District</option>District
+                            <option>Pune</option>
+                            <option>Mulshi</option>
+                            <option>PCMC</option>
+                            <option>Phaltan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Gender:</b></td>
+                    <td>
+                        <input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> Female
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Upload Photo:</b></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><b>Select Course:</b></td>
+                    <td>
+                    <select>
+                    <option>DMC</option>
+                    <option>DAC</option>
+                    <option>DBDA</option>
+                    <option>DITISS</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Register"></input>
+                        <input type="reset" value="Clear"></input>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
